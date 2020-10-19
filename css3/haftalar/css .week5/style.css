@@ -10,7 +10,6 @@ nav i{
 }
 
 li img{
-    height: 3.3vh;
     width: 1.56vw;
     border-radius: 50%;
     border: 0.1vw solid grey;
@@ -22,7 +21,6 @@ p{
 }
 
 #Hicoders-logo img{
-    height: 25vh;
     width: 12vw;
     border-radius: 50%;
     margin-left: 12vw;
