@@ -1,0 +1,156 @@
+/*general style*/
+body{
+    margin: 0px;
+    padding :0px;
+    box-sizing: border-box;  
+}
+
+nav i{
+    color:gray
+}
+
+li img{
+    height: 3.3vh;
+    width: 1.56vw;
+    border-radius: 50%;
+    border: 0.1vw solid grey;
+}
+
+p{
+     font-family: 'Pacifico', cursive;
+     font-size: 2vw;
+}
+
+#Hicoders-logo img{
+    height: 25vh;
+    width: 12vw;
+    border-radius: 50%;
+    margin-left: 12vw;
+    margin-top: 3vh;
+}
+
+figure img{
+    width: 6vw;
+    border: 0.1vw solid grey;
+}
+
+div img{
+    width: 2vw;
+}
+
+footer ul li a{
+    text-decoration: none;
+    margin: 2vw; 
+    color: grey;    
+}
+/*layout*/
+main {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "section"
+    "footer";
+    grid-template-rows: 1fr 3fr 1fr;  
+    height: 50vh;
+   }
+
+header {
+    display: flex;
+    grid-area: header;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow:1px 1px gray;
+    height: 10vh;
+}
+
+header a{
+    margin: 1rem;
+}
+
+button{
+    color: gray;
+    background: white;
+    height: 5vh;
+    width: 12vw;
+    border-radius: 0.2vw;
+}
+
+header button{
+    margin-left: 12vw;
+}
+
+section {
+    display: grid;
+    grid-area: section;
+    grid-template-columns: 1fr 2fr 1fr ;
+    box-shadow: 1px 1px grey;
+}
+
+ footer {
+    grid-area: footer;
+    display: grid;     
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    list-style: none;
+}
+
+#content-contain{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+}
+
+#content-first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#content-first > :nth-child(2) {
+    margin: 9px;
+
+}
+
+#content-contain>:last-child{
+    position: relative;
+    margin-top: -2vh;
+}
+#subscribe-information{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer ul{  
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
