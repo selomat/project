@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(71, 170, 184);
+}
+h1{
+    text-align: center;
+    background-color: rgb(136, 216, 116);
+    border: rgb(138, 104, 233) solid 4px;
+    padding: 80px;
+    font-size: 60px;
+    text-shadow: rgb(138, 104, 233);
+}
+h2{
+    text-align: center;
+    color: rgb(172, 17, 107);
+    height: 60px;
+}
+    
+#Myfamily{
+    background-image: url("/foto/kuzularim.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
+.aboutchild{
+    position: static;
+    border-collapse: collapse;
+    border: 2px solid rgb(138, 104, 233);
+    text-align: center;
+    margin-left: 400px;
+    padding: 50px;
+    width: 600px;
+    height: 150px;
+
+}
+table{
+   position: static;
+    border-collapse: collapse;
+    border: 2px solid rgb(138, 104, 233);
+    text-align: center;
+    margin-left: 400px;
+    width: 500px;
+ 
+} 
+table td,th{
+    border: 2px solid rgb(138, 104, 233);
+}
+.resim img{
+    border-radius: 14px;
+    display: inline-block;
+    float: left;
+    width: 500px;
+    margin: 50px 30px;
+}

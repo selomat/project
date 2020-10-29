@@ -1,0 +1,30 @@
+/*baragin eni ve boyu 640 px */
+/*gercek olculerini wikipediadan aldim */
+.bayrak{
+    background-color: red;
+    width: 640px;
+    height: 640px;
+    z-index: inherit 1;
+    position: relative;
+    margin: auto;
+}
+/*arti nin dikey olanin boyutu eni 120 px,boyu 400 px*/
+.white1{
+    background-color:white;
+    width: 120px;
+    height: 400px;
+    z-index: inherit 2;
+    position: relative;
+    margin-left: 570px;
+    margin-top: -480px;
+}
+/*arti nin yatay olanin boyutu eni 400 px,boyu 120 px*/
+.white2{
+    background-color: white;
+    width: 400px;
+    height: 120px;
+    z-index: inherit 3;
+    position: relative;
+    margin-left: 430px;
+    margin-top: -260px;
+}
